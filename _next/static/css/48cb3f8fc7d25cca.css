@@ -1,0 +1,103 @@
+@keyframes style_logo-bar__t0QsS {
+    0% {
+        transform: scaleY(0)
+    }
+}
+
+@keyframes style_logo-diagonal__rAO2v {
+    0% {
+        transform: scaleX(0);
+        opacity: 0
+    }
+}
+
+@keyframes style_logo-letter__71IGe {
+    0% {
+        transform: translate(-8%) scale(.8);
+        opacity: 0
+    }
+}
+
+.style_logo__roZLU {
+    display: block;
+    width: calc(var(--base-spacing) * 20)
+}
+
+.style_animate__Uk32x {
+    --animation-start: 0s
+}
+
+.style_animate__Uk32x * {
+    animation-fill-mode: backwards
+}
+
+.style_bar__0dvzh,
+.style_letter__rngSF {
+    fill: var(--black)
+}
+
+.style_animate__Uk32x :is(.style_bar__0dvzh, .style_diagonal__xeO5j) {
+    transform-box: fill-box
+}
+
+.style_animate__Uk32x .style_bar__0dvzh {
+    transform-origin: 0 100%;
+    animation-name: style_logo-bar__t0QsS;
+    animation-duration: .8s;
+    animation-timing-function: cubic-bezier(.65, .05, .35, 1.2)
+}
+
+.style_animate__Uk32x .style_bar__0dvzh:first-child {
+    animation-delay: var(--animation-start)
+}
+
+.style_animate__Uk32x .style_bar__0dvzh:nth-child(2) {
+    animation-delay: calc(var(--animation-start) + .1s)
+}
+
+.style_animate__Uk32x .style_bar__0dvzh:nth-child(3) {
+    animation-delay: calc(var(--animation-start) + .2s)
+}
+
+.style_animate__Uk32x path {
+    animation-duration: .5s;
+    animation-delay: calc(var(--animation-start) + .8s)
+}
+
+.style_diagonal__xeO5j {
+    fill: var(--light-gray-light-background)
+}
+
+.style_animate__Uk32x .style_diagonal__xeO5j {
+    transform-origin: 50%;
+    animation-name: style_logo-diagonal__rAO2v;
+    animation-timing-function: cubic-bezier(.23, 1, .32, 1)
+}
+
+.style_animate__Uk32x .style_letter__rngSF {
+    transform-origin: 0 50%;
+    animation-name: style_logo-letter__71IGe;
+    animation-timing-function: cubic-bezier(.23, 1, .32, 1.05)
+}
+
+.style_animate__Uk32x .style_letter__rngSF:nth-of-type(3) {
+    animation-delay: calc(var(--animation-start) + .85s)
+}
+
+.style_animate__Uk32x .style_letter__rngSF:nth-of-type(4) {
+    animation-delay: calc(var(--animation-start) + .9s)
+}
+
+.style_animate__Uk32x .style_letter__rngSF:nth-of-type(5) {
+    animation-delay: calc(var(--animation-start) + .95s)
+}
+
+.style_animate__Uk32x .style_letter__rngSF:nth-of-type(6) {
+    animation-delay: calc(var(--animation-start) + 1s)
+}
+
+.style_animate__Uk32x .style_letter__rngSF:nth-of-type(7) {
+    animation-delay: calc(var(--animation-start) + 1.05s)
+}
+
+style_logo__roZLU {display: none;}

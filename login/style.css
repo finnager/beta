@@ -1,0 +1,64 @@
+@font-face {
+    font-weight: 300;
+    font-family: "Sharp Grotesk";
+    font-style: normal;
+    src: url("https://static.zip.co/assets/fonts/sharp-grotesk-light-20.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Sharp Grotesk";
+    font-style: normal;
+    src: url("https://static.zip.co/assets/fonts/sharp-grotesk-book-20.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: "Sharp Grotesk";
+    font-style: normal;
+    src: url("https://static.zip.co/assets/fonts/sharp-grotesk-medium-20.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: "Sharp Grotesk";
+    font-style: normal;
+    src: url("https://static.zip.co/assets/fonts/sharp-grotesk-semibold-20.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Sharp Grotesk 25";
+    font-style: normal;
+    src: url("https://static.zip.co/assets/fonts/sharp-grotesk-book-25.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: "Sharp Grotesk 25";
+    font-style: normal;
+    src: url("https://static.zip.co/assets/fonts/sharp-grotesk-medium-25.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: "Sharp Grotesk 25";
+    font-style: normal;
+    src: url("https://static.zip.co/assets/fonts/sharp-grotesk-semibold-25.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Cooper Lt BT";
+    font-style: normal;
+    src: local("Cooper Lt BT Regular");local("CooperLtBT-Regular");
+    src: url("https://static.zip.co/assets/fonts/cooper-lt-bt.woff2") format("woff2");
+    font-display: swap;
+}
